@@ -8,4 +8,5 @@ Implementation-URL: http://projects.spring.io/spring-boot/big/eureka-s
  ervice-test1/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.wangfan.application.EurekaService
 

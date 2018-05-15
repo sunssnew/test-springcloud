@@ -8,8 +8,9 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>eureka-server</module>
-		<module>eureka-service-test0</module>
 		<module>eureka-service-test1</module>
+		<module>ribbon-service-test0</module>
+		<module>feign-service-test0</module>
 	</modules>
 
 	<parent>
@@ -20,24 +21,24 @@
 	</parent>
 
 	<dependencies>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>
-				<!-- 排除tomcat -->
+				排除tomcat
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- 加tomcatAPI -->
+		加tomcatAPI
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-servlet-api</artifactId>
 			<version>8.5.23</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 
 </project>
