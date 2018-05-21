@@ -10,12 +10,13 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-//开启断路器
-@EnableHystrix
 //springboot启动
 @SpringBootApplication
 
 @EnableDiscoveryClient
+
+//开启断路器
+@EnableHystrix
 public class RibbonService extends SpringBootServletInitializer {
 
     public static void main(String[] args) {

@@ -11,6 +11,7 @@
 		<module>eureka-service-test1</module>
 		<module>ribbon-service-test0</module>
 		<module>feign-service-test0</module>
+		<module>zuul-service-test0</module>
 	</modules>
 
 	<parent>
